@@ -1408,7 +1408,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img { 
+    padding: 5px;
+    width: 80px; 
+    filter: grayscale(.5) saturate(1);
+  }
 
   .testimonials-item-title {
     margin-bottom: 10px;
