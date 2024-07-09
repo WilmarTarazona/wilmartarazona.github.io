@@ -1388,10 +1388,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .service-content-box { text-align: left; }
 
   .service-icon-box img { 
-    /* filter: saturate(1) invert(.5) sepia(10); */
     filter: invert(72%) sepia(79%) saturate(308%) hue-rotate(350deg) brightness(106%) contrast(102%);
-
-
   }
   /* testimonials */
 
@@ -1417,7 +1414,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .testimonials-avatar-box img { 
     padding: 12px;
     width: 80px; 
-    filter: grayscale(.5) saturate(1);
+    filter: brightness(0) invert(72%) sepia(79%) saturate(308%) hue-rotate(350deg) brightness(100%) contrast(102%);
+    /* filter: brightness(0); */
   }
 
   .testimonials-item-title {
